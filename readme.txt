@@ -17,7 +17,7 @@ Page Break Wordpress plugin adds a Button to the editor, that easily lets you in
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the '/wp-content/plugins/' directory
+1. Upload the entire 'page-break' folder to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
