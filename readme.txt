@@ -1,6 +1,6 @@
 === Page Break ===
 Contributors: espreson
-Donate link: http://espreson.net/
+Donate link: http://espreson.net/donate-for-freebies-work/
 Tags: page break, next page, pagination
 Requires at least: 3.0.1
 Tested up to: 4.1
