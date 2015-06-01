@@ -3,8 +3,8 @@ Contributors: espreson
 Donate link: http://espreson.net/donate-for-freebies-work/
 Tags: page break, next page, pagination
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 4.1
+Tested up to: 4.2.2
+Stable tag: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,11 @@ select the "Page Break" tag and delete it.
 1. "page-break-scrren-1" - "Page Break" button in the editor.
 2. "page-break-scrren-2" - How to insert "Page Break" to post.
 3. "page-break-scrren-3" - How the actual post pagination looks.
+
+== Changelog ==
+= 1.1.0 =
+* Added Settings of Pagination name and current pagination color.
+
 
 == Changelog ==
 = 1.0.0 =
