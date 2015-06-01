@@ -11,6 +11,29 @@ class page_break {
         }
 
         add_action('admin_enqueue_scripts', 'page_break_css');
+				
+				function page_break_js() {
+					if( ! is_admin() ) {
+							
+							wp_enqueue_script('page_break_js', plugins_url('js/page-break-js.js', __FILE__), array(), '1.0');
+							
+							$config_array = array(
+								'pagin_title' => get_option('pagin_title'),
+								'pagincolor' => get_option('pagin_color')
+								);
+ 
+								wp_localize_script('page-break-js', 'setting', $config_array);
+						}
+        }
+        add_action('wp_enqueue_scripts', 'page_break_js');
+				
+				
+				var_dump($config_array);
+		
+				function page_break_front_css() {
+            wp_enqueue_style('page-break-front', plugins_url('css/page-break-front.css', __FILE__));
+        }
+				add_action('wp_enqueue_scripts', 'page_break_front_css');
     
         //ADDS THE TINYMCE BUTTON
         function add_tinymce() {
@@ -31,6 +54,8 @@ class page_break {
         //end
     }
     
+				
+    
     
     //INITIALIZING THE BUTTON
     public function init() {
@@ -38,3 +63,5 @@ class page_break {
     }
 
 }
+
+
