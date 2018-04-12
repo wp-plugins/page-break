@@ -12,7 +12,7 @@
  * @wordpress-plugin
  * Plugin Name:       Page Break
  * Plugin URI:        http://espreson.net/
- * Description:       Adds Page Break Button to Wordpress editor For easy insertion of Page Break "<!--nextpage" Tag in your Blog Posts.
+ * Description:       Adds Page Break Button to Wordpress editor For easy insertion of Page Break "<!--nextpage-->" Tag in your Blog Posts.
  * Version:           1.0.0
  * Author:            Espreson Media
  * Author URI:        http://espreson.net/
